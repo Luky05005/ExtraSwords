@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.mcreator.poisonsword.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+      "PoisonswordModRepairItemRecipeMixin"  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

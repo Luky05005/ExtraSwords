@@ -1,0 +1,103 @@
+{
+  "mod_elements": [
+    {
+      "name": "PoisonSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poison_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/extraswords/procedures/PoisonSwordLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PoisonSword",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poison_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/extraswords/item/PoisonSwordItem.java",
+          "src/main/resources/assets/extraswords/models/item/poison_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazeSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blaze_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/extraswords/procedures/BlazeSwordLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlazeSword",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blaze_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/extraswords/item/BlazeSwordItem.java",
+          "src/main/resources/assets/extraswords/models/item/blaze_sword.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.poisonsword.poison_sword": "Knife of Decay",
+      "item.poisonsword.blaze_sword": "Blaze Sword",
+      "item.extraswords.blaze_sword": "Blaze Sword",
+      "item.extraswords.poison_sword": "Knife of Decay"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "extraswords",
+    "modName": "Extra_Swords",
+    "version": "1.0.3",
+    "author": "Luky005, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.extraswords",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}
