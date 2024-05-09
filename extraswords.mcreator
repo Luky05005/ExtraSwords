@@ -65,6 +65,20 @@
           "src/main/resources/assets/extraswords/models/item/blaze_sword.json"
         ]
       }
+    },
+    {
+      "name": "Javelin",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "javelin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/extraswords/item/JavelinItem.java",
+          "src/main/resources/assets/extraswords/models/item/javelin.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -74,7 +88,8 @@
       "item.poisonsword.poison_sword": "Knife of Decay",
       "item.poisonsword.blaze_sword": "Blaze Sword",
       "item.extraswords.blaze_sword": "Blaze Sword",
-      "item.extraswords.poison_sword": "Knife of Decay"
+      "item.extraswords.poison_sword": "Knife of Decay",
+      "item.extraswords.javelin": "Javelin"
     }
   },
   "foldersRoot": {

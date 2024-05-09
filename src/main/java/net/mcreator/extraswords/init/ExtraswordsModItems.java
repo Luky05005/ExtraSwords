@@ -12,16 +12,19 @@ import net.minecraft.client.renderer.item.ItemProperties;
 import net.minecraft.client.renderer.item.ClampedItemPropertyFunction;
 
 import net.mcreator.extraswords.item.PoisonSwordItem;
+import net.mcreator.extraswords.item.JavelinItem;
 import net.mcreator.extraswords.item.BlazeSwordItem;
 import net.mcreator.extraswords.ExtraswordsMod;
 
 public class ExtraswordsModItems {
 	public static Item BLAZE_SWORD;
 	public static Item POISON_SWORD;
+	public static Item JAVELIN;
 
 	public static void load() {
 		BLAZE_SWORD = register("blaze_sword", new BlazeSwordItem());
 		POISON_SWORD = register("poison_sword", new PoisonSwordItem());
+		JAVELIN = register("javelin", new JavelinItem());
 	}
 
 	public static void clientLoad() {
