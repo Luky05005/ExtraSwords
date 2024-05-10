@@ -11,6 +11,7 @@ import net.minecraft.core.Registry;
 import net.minecraft.client.renderer.item.ItemProperties;
 import net.minecraft.client.renderer.item.ClampedItemPropertyFunction;
 
+import net.mcreator.extraswords.item.SwordOfIceItem;
 import net.mcreator.extraswords.item.PoisonSwordItem;
 import net.mcreator.extraswords.item.JavelinItem;
 import net.mcreator.extraswords.item.BlazeSwordItem;
@@ -20,11 +21,13 @@ public class ExtraswordsModItems {
 	public static Item BLAZE_SWORD;
 	public static Item POISON_SWORD;
 	public static Item JAVELIN;
+	public static Item SWORD_OF_ICE;
 
 	public static void load() {
 		BLAZE_SWORD = register("blaze_sword", new BlazeSwordItem());
 		POISON_SWORD = register("poison_sword", new PoisonSwordItem());
 		JAVELIN = register("javelin", new JavelinItem());
+		SWORD_OF_ICE = register("sword_of_ice", new SwordOfIceItem());
 	}
 
 	public static void clientLoad() {

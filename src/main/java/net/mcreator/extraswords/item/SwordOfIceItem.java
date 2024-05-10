@@ -1,6 +1,7 @@
 
 package net.mcreator.extraswords.item;
 
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.TooltipFlag;
@@ -12,17 +13,17 @@ import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.network.chat.Component;
 
-import net.mcreator.extraswords.procedures.PoisonSwordLivingEntityIsHitWithToolProcedure;
+import net.mcreator.extraswords.procedures.SwordOfIceLivingEntityIsHitWithToolProcedure;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 
 import java.util.List;
 
-public class PoisonSwordItem extends SwordItem {
-	public PoisonSwordItem() {
+public class SwordOfIceItem extends SwordItem {
+	public SwordOfIceItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 2031;
+				return 220;
 			}
 
 			public float getSpeed() {
@@ -38,13 +39,13 @@ public class PoisonSwordItem extends SwordItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 15;
+				return 2;
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of();
+				return Ingredient.of(new ItemStack(Blocks.BLUE_ICE));
 			}
-		}, 3, -1.5f, new Item.Properties().fireResistant());
+		}, 3, -2.4f, new Item.Properties());
 		ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.COMBAT).register(content -> content.accept(this));
 	}
 
@@ -55,13 +56,12 @@ public class PoisonSwordItem extends SwordItem {
 		double y = entity.getY();
 		double z = entity.getZ();
 		Level world = entity.level();
-		PoisonSwordLivingEntityIsHitWithToolProcedure.execute(entity);
+		SwordOfIceLivingEntityIsHitWithToolProcedure.execute(entity);
 		return retval;
 	}
 
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("Poisons enemies"));
 	}
 }

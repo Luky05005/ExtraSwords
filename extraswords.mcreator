@@ -61,8 +61,8 @@
       "registry_name": "blaze_sword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/extraswords/item/BlazeSwordItem.java",
-          "src/main/resources/assets/extraswords/models/item/blaze_sword.json"
+          "src/main/resources/assets/extraswords/models/item/blaze_sword.json",
+          "src/main/java/net/mcreator/extraswords/item/BlazeSwordItem.java"
         ]
       }
     },
@@ -152,6 +152,41 @@
           "src/main/resources/assets/extraswords/models/item/javelin.json"
         ]
       }
+    },
+    {
+      "name": "SwordOfIceLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sword_of_ice_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/extraswords/procedures/SwordOfIceLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Weapons/Swords/Sword of Ice"
+    },
+    {
+      "name": "SwordOfIce",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sword_of_ice",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/extraswords/models/item/sword_of_ice.json",
+          "src/main/java/net/mcreator/extraswords/item/SwordOfIceItem.java"
+        ]
+      },
+      "path": "~/Weapons/Swords/Sword of Ice"
     }
   ],
   "variable_elements": [],
@@ -162,12 +197,32 @@
       "item.poisonsword.blaze_sword": "Blaze Sword",
       "item.extraswords.blaze_sword": "Blaze Sword",
       "item.extraswords.poison_sword": "Knife of Decay",
+      "item.extraswords.sword_of_ice": "Sword Of Ice",
       "item.extraswords.javelin": "Javelin"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Weapons",
+        "children": [
+          {
+            "name": "Swords",
+            "children": [
+              {
+                "name": "Sword of Ice",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "PotionEffects",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "extraswords",

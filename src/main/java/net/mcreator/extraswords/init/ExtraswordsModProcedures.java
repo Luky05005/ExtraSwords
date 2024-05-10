@@ -4,6 +4,7 @@
  */
 package net.mcreator.extraswords.init;
 
+import net.mcreator.extraswords.procedures.SwordOfIceLivingEntityIsHitWithToolProcedure;
 import net.mcreator.extraswords.procedures.PoisonSwordLivingEntityIsHitWithToolProcedure;
 import net.mcreator.extraswords.procedures.BlazeSwordRightclickedProcedure;
 import net.mcreator.extraswords.procedures.BlazeSwordLivingEntityIsHitWithToolProcedure;
@@ -18,5 +19,6 @@ public class ExtraswordsModProcedures {
 		new BlazeSwordRightclickedProcedure();
 		new BlazeBallWhileProjectileFlyingTickProcedure();
 		new BlazeBallProjectileHitsLivingEntityProcedure();
+		new SwordOfIceLivingEntityIsHitWithToolProcedure();
 	}
 }
