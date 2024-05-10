@@ -67,9 +67,82 @@
       }
     },
     {
+      "name": "BlazeSwordRightclicked",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blaze_sword_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/extraswords/procedures/BlazeSwordRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlazeBallWhileProjectileFlyingTick",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blaze_ball_while_projectile_flying_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/extraswords/procedures/BlazeBallWhileProjectileFlyingTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlazeBallProjectileHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blaze_ball_projectile_hits_living_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/extraswords/procedures/BlazeBallProjectileHitsLivingEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlazeBall",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blaze_ball",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/extraswords/entity/BlazeBallEntity.java"
+        ]
+      }
+    },
+    {
       "name": "Javelin",
-      "type": "tool",
-      "sortid": 5,
+      "type": "item",
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "javelin",
@@ -99,7 +172,7 @@
   "workspaceSettings": {
     "modid": "extraswords",
     "modName": "Extra_Swords",
-    "version": "1.0.3",
+    "version": "1.0.1",
     "author": "Luky005, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",

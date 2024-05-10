@@ -1,0 +1,25 @@
+{
+  "_fv": 57,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "Items.FIRE_CHARGE"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "item.firecharge.use"
+    },
+    "igniteFire": true,
+    "power": 1.0,
+    "damage": 5.0,
+    "knockback": 5,
+    "entityModel": "Default",
+    "customModelTexture": "fire_charge.png",
+    "onHitsPlayer": {
+      "name": "BlazeBallProjectileHitsLivingEntity"
+    },
+    "onHitsEntity": {
+      "name": "BlazeBallProjectileHitsLivingEntity"
+    }
+  }
+}

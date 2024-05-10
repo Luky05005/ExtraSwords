@@ -1,35 +1,55 @@
 {
   "_fv": 57,
-  "_type": "tool",
+  "_type": "item",
   "definition": {
-    "toolType": "Special",
     "renderType": 0,
-    "blockingRenderType": 0,
-    "texture": "poson_sworld",
-    "customModelName": "Normal",
-    "blockingModelName": "Normal blocking",
+    "texture": "sword_placeholder",
+    "customModelName": "Ranged item",
+    "customProperties": {},
+    "states": [],
     "name": "Javelin",
-    "specialInformation": {
-      "fixedValue": [
-        "You can throw it on your enemy"
-      ]
-    },
+    "rarity": "COMMON",
     "creativeTab": {
       "value": "COMBAT"
     },
-    "harvestLevel": 1,
-    "efficiency": 4.0,
-    "attackSpeed": 1.0,
-    "enchantability": 2,
-    "damageVsEntity": 6.0,
-    "usageCount": 230,
-    "blocksAffected": [],
+    "stackSize": 64,
+    "enchantability": 14,
+    "useDuration": 20,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 4.0,
+    "specialInformation": {
+      "fixedValue": [
+        "Hold Right click to throw"
+      ]
+    },
     "glowCondition": {
       "fixedValue": false
     },
-    "repairItems": [],
-    "immuneToFire": false,
-    "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "enableRanged": true,
+    "shootConstantly": false,
+    "projectile": {
+      "value": "CUSTOM:BlazeBall"
+    },
+    "isFood": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "spear"
   }
 }

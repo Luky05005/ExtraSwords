@@ -17,6 +17,7 @@ import org.apache.logging.log4j.LogManager;
 
 import net.mcreator.extraswords.init.ExtraswordsModProcedures;
 import net.mcreator.extraswords.init.ExtraswordsModItems;
+import net.mcreator.extraswords.init.ExtraswordsModEntities;
 
 import net.fabricmc.api.ModInitializer;
 
@@ -27,6 +28,8 @@ public class ExtraswordsMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Initializing ExtraswordsMod");
+
+		ExtraswordsModEntities.load();
 
 		ExtraswordsModItems.load();
 

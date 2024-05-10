@@ -5,12 +5,18 @@
 package net.mcreator.extraswords.init;
 
 import net.mcreator.extraswords.procedures.PoisonSwordLivingEntityIsHitWithToolProcedure;
+import net.mcreator.extraswords.procedures.BlazeSwordRightclickedProcedure;
 import net.mcreator.extraswords.procedures.BlazeSwordLivingEntityIsHitWithToolProcedure;
+import net.mcreator.extraswords.procedures.BlazeBallWhileProjectileFlyingTickProcedure;
+import net.mcreator.extraswords.procedures.BlazeBallProjectileHitsLivingEntityProcedure;
 
 @SuppressWarnings("InstantiationOfUtilityClass")
 public class ExtraswordsModProcedures {
 	public static void load() {
 		new BlazeSwordLivingEntityIsHitWithToolProcedure();
 		new PoisonSwordLivingEntityIsHitWithToolProcedure();
+		new BlazeSwordRightclickedProcedure();
+		new BlazeBallWhileProjectileFlyingTickProcedure();
+		new BlazeBallProjectileHitsLivingEntityProcedure();
 	}
 }

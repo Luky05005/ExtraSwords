@@ -5,7 +5,7 @@
     "toolType": "Sword",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "poson_sworld",
+    "texture": "blaze_sword",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "name": "Blaze Sword",
@@ -21,8 +21,8 @@
     "efficiency": 4.0,
     "attackSpeed": 1.6,
     "enchantability": 15,
-    "damageVsEntity": 4.0,
-    "usageCount": 250,
+    "damageVsEntity": 4.5,
+    "usageCount": 300,
     "blocksAffected": [],
     "glowCondition": {
       "fixedValue": false
@@ -35,6 +35,9 @@
     "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "BlazeSwordRightclicked"
+    },
     "onEntityHitWith": {
       "name": "BlazeSwordLivingEntityIsHitWithTool"
     }

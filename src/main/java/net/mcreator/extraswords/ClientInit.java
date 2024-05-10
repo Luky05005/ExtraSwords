@@ -12,6 +12,8 @@
 */
 package net.mcreator.extraswords;
 
+import net.mcreator.extraswords.init.ExtraswordsModEntityRenderers;
+
 import net.fabricmc.api.Environment;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.ClientModInitializer;
@@ -21,5 +23,6 @@ public class ClientInit implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
 
+		ExtraswordsModEntityRenderers.load();
 	}
 }

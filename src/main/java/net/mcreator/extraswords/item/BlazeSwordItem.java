@@ -10,9 +10,13 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.InteractionResultHolder;
+import net.minecraft.world.InteractionHand;
 import net.minecraft.network.chat.Component;
 
+import net.mcreator.extraswords.procedures.BlazeSwordRightclickedProcedure;
 import net.mcreator.extraswords.procedures.BlazeSwordLivingEntityIsHitWithToolProcedure;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -23,7 +27,7 @@ public class BlazeSwordItem extends SwordItem {
 	public BlazeSwordItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 250;
+				return 300;
 			}
 
 			public float getSpeed() {
@@ -31,7 +35,7 @@ public class BlazeSwordItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 2f;
+				return 2.5f;
 			}
 
 			public int getLevel() {
@@ -58,6 +62,13 @@ public class BlazeSwordItem extends SwordItem {
 		Level world = entity.level();
 		BlazeSwordLivingEntityIsHitWithToolProcedure.execute(entity);
 		return retval;
+	}
+
+	@Override
+	public InteractionResultHolder<ItemStack> use(Level world, Player entity, InteractionHand hand) {
+		InteractionResultHolder<ItemStack> ar = super.use(world, entity, hand);
+		BlazeSwordRightclickedProcedure.execute(entity, ar.getObject());
+		return ar;
 	}
 
 	@Override
