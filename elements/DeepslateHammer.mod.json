@@ -5,10 +5,10 @@
     "toolType": "Sword",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "icesword",
+    "texture": "deepslatehammer",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
-    "name": "Sword Of Ice",
+    "name": "Deepslate Hammer",
     "specialInformation": {
       "fixedValue": []
     },
@@ -17,24 +17,24 @@
     },
     "harvestLevel": 1,
     "efficiency": 4.0,
-    "attackSpeed": 1.6,
+    "attackSpeed": 0.4,
     "enchantability": 2,
-    "damageVsEntity": 4.0,
-    "usageCount": 220,
+    "damageVsEntity": 14.0,
+    "usageCount": 5080,
     "blocksAffected": [],
     "glowCondition": {
       "fixedValue": false
     },
     "repairItems": [
       {
-        "value": "Blocks.BLUE_ICE"
+        "value": "Blocks.REINFORCED_DEEPSLATE"
       }
     ],
-    "immuneToFire": false,
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "onEntityHitWith": {
-      "name": "SwordOfIceLivingEntityIsHitWithTool"
+      "name": "DeepslateHammerLivingEntityIsHitWithTool"
     }
   }
 }

@@ -61,8 +61,8 @@
       "registry_name": "blaze_sword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/extraswords/models/item/blaze_sword.json",
-          "src/main/java/net/mcreator/extraswords/item/BlazeSwordItem.java"
+          "src/main/java/net/mcreator/extraswords/item/BlazeSwordItem.java",
+          "src/main/resources/assets/extraswords/models/item/blaze_sword.json"
         ]
       }
     },
@@ -182,11 +182,46 @@
       "registry_name": "sword_of_ice",
       "metadata": {
         "files": [
-          "src/main/resources/assets/extraswords/models/item/sword_of_ice.json",
-          "src/main/java/net/mcreator/extraswords/item/SwordOfIceItem.java"
+          "src/main/java/net/mcreator/extraswords/item/SwordOfIceItem.java",
+          "src/main/resources/assets/extraswords/models/item/sword_of_ice.json"
         ]
       },
       "path": "~/Weapons/Swords/Sword of Ice"
+    },
+    {
+      "name": "DeepslateHammerLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_hammer_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/extraswords/procedures/DeepslateHammerLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Weapons/Swords/Deepslate Hammer"
+    },
+    {
+      "name": "DeepslateHammer",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_hammer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/extraswords/item/DeepslateHammerItem.java",
+          "src/main/resources/assets/extraswords/models/item/deepslate_hammer.json"
+        ]
+      },
+      "path": "~/Weapons/Swords/Deepslate Hammer"
     }
   ],
   "variable_elements": [],
@@ -196,6 +231,7 @@
       "item.poisonsword.poison_sword": "Knife of Decay",
       "item.poisonsword.blaze_sword": "Blaze Sword",
       "item.extraswords.blaze_sword": "Blaze Sword",
+      "item.extraswords.deepslate_hammer": "Deepslate Hammer",
       "item.extraswords.poison_sword": "Knife of Decay",
       "item.extraswords.sword_of_ice": "Sword Of Ice",
       "item.extraswords.javelin": "Javelin"
@@ -213,6 +249,10 @@
               {
                 "name": "Sword of Ice",
                 "children": []
+              },
+              {
+                "name": "Deepslate Hammer",
+                "children": []
               }
             ]
           }
@@ -227,7 +267,7 @@
   "workspaceSettings": {
     "modid": "extraswords",
     "modName": "Extra_Swords",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "author": "Luky005, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",

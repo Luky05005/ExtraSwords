@@ -14,6 +14,7 @@ import net.minecraft.client.renderer.item.ClampedItemPropertyFunction;
 import net.mcreator.extraswords.item.SwordOfIceItem;
 import net.mcreator.extraswords.item.PoisonSwordItem;
 import net.mcreator.extraswords.item.JavelinItem;
+import net.mcreator.extraswords.item.DeepslateHammerItem;
 import net.mcreator.extraswords.item.BlazeSwordItem;
 import net.mcreator.extraswords.ExtraswordsMod;
 
@@ -22,12 +23,14 @@ public class ExtraswordsModItems {
 	public static Item POISON_SWORD;
 	public static Item JAVELIN;
 	public static Item SWORD_OF_ICE;
+	public static Item DEEPSLATE_HAMMER;
 
 	public static void load() {
 		BLAZE_SWORD = register("blaze_sword", new BlazeSwordItem());
 		POISON_SWORD = register("poison_sword", new PoisonSwordItem());
 		JAVELIN = register("javelin", new JavelinItem());
 		SWORD_OF_ICE = register("sword_of_ice", new SwordOfIceItem());
+		DEEPSLATE_HAMMER = register("deepslate_hammer", new DeepslateHammerItem());
 	}
 
 	public static void clientLoad() {
