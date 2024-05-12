@@ -222,6 +222,45 @@
         ]
       },
       "path": "~/Weapons/Swords/Deepslate Hammer"
+    },
+    {
+      "name": "BreadSwordRightclicked",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bread_sword_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/extraswords/procedures/BreadSwordRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Weapons/Swords/Bread Sword"
+    },
+    {
+      "name": "BreadSword",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bread_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/extraswords/models/item/bread_sword.json",
+          "src/main/java/net/mcreator/extraswords/item/BreadSwordItem.java"
+        ]
+      },
+      "path": "~/Weapons/Swords/Bread Sword"
     }
   ],
   "variable_elements": [],
@@ -231,6 +270,7 @@
       "item.poisonsword.poison_sword": "Knife of Decay",
       "item.poisonsword.blaze_sword": "Blaze Sword",
       "item.extraswords.blaze_sword": "Blaze Sword",
+      "item.extraswords.bread_sword": "Bread Sword",
       "item.extraswords.deepslate_hammer": "Deepslate Hammer",
       "item.extraswords.poison_sword": "Knife of Decay",
       "item.extraswords.sword_of_ice": "Sword Of Ice",
@@ -252,6 +292,10 @@
               },
               {
                 "name": "Deepslate Hammer",
+                "children": []
+              },
+              {
+                "name": "Bread Sword",
                 "children": []
               }
             ]

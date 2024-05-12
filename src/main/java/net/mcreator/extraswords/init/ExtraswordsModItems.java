@@ -15,6 +15,7 @@ import net.mcreator.extraswords.item.SwordOfIceItem;
 import net.mcreator.extraswords.item.PoisonSwordItem;
 import net.mcreator.extraswords.item.JavelinItem;
 import net.mcreator.extraswords.item.DeepslateHammerItem;
+import net.mcreator.extraswords.item.BreadSwordItem;
 import net.mcreator.extraswords.item.BlazeSwordItem;
 import net.mcreator.extraswords.ExtraswordsMod;
 
@@ -24,6 +25,7 @@ public class ExtraswordsModItems {
 	public static Item JAVELIN;
 	public static Item SWORD_OF_ICE;
 	public static Item DEEPSLATE_HAMMER;
+	public static Item BREAD_SWORD;
 
 	public static void load() {
 		BLAZE_SWORD = register("blaze_sword", new BlazeSwordItem());
@@ -31,6 +33,7 @@ public class ExtraswordsModItems {
 		JAVELIN = register("javelin", new JavelinItem());
 		SWORD_OF_ICE = register("sword_of_ice", new SwordOfIceItem());
 		DEEPSLATE_HAMMER = register("deepslate_hammer", new DeepslateHammerItem());
+		BREAD_SWORD = register("bread_sword", new BreadSwordItem());
 	}
 
 	public static void clientLoad() {
