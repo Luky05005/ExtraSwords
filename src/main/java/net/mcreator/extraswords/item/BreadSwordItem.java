@@ -10,7 +10,12 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.InteractionResultHolder;
+import net.minecraft.world.InteractionHand;
 import net.minecraft.network.chat.Component;
+
+import net.mcreator.extraswords.procedures.BreadSwordRightclickedProcedure;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 
@@ -44,6 +49,13 @@ public class BreadSwordItem extends SwordItem {
 			}
 		}, 3, -2.4f, new Item.Properties());
 		ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.COMBAT).register(content -> content.accept(this));
+	}
+
+	@Override
+	public InteractionResultHolder<ItemStack> use(Level world, Player entity, InteractionHand hand) {
+		InteractionResultHolder<ItemStack> ar = super.use(world, entity, hand);
+		BreadSwordRightclickedProcedure.execute(entity, ar.getObject());
+		return ar;
 	}
 
 	@Override

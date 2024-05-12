@@ -5,10 +5,10 @@
     "toolType": "Sword",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "chlebobec",
+    "texture": "sword_placeholder",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
-    "name": "Bread Sword",
+    "name": "Lightning Sword",
     "specialInformation": {
       "fixedValue": []
     },
@@ -17,24 +17,20 @@
     },
     "harvestLevel": 1,
     "efficiency": 4.0,
-    "attackSpeed": 1.6,
-    "enchantability": 2,
-    "damageVsEntity": 2.0,
-    "usageCount": 50,
+    "attackSpeed": 1.0,
+    "enchantability": 22,
+    "damageVsEntity": 6.0,
+    "usageCount": 2500,
     "blocksAffected": [],
     "glowCondition": {
       "fixedValue": false
     },
-    "repairItems": [
-      {
-        "value": "Items.BREAD"
-      }
-    ],
+    "repairItems": [],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "onRightClickedInAir": {
-      "name": "BreadSwordRightclicked"
+      "name": "LightningSwordRightclicked"
     }
   }
 }

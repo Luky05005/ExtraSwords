@@ -5,36 +5,32 @@
     "toolType": "Sword",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "chlebobec",
+    "texture": "sword_placeholder",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
-    "name": "Bread Sword",
+    "name": "Emerald Sword",
     "specialInformation": {
       "fixedValue": []
     },
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "TOOLS"
     },
     "harvestLevel": 1,
     "efficiency": 4.0,
-    "attackSpeed": 1.6,
+    "attackSpeed": 1.0,
     "enchantability": 2,
-    "damageVsEntity": 2.0,
-    "usageCount": 50,
+    "damageVsEntity": 5.0,
+    "usageCount": 2000,
     "blocksAffected": [],
     "glowCondition": {
       "fixedValue": false
     },
-    "repairItems": [
-      {
-        "value": "Items.BREAD"
-      }
-    ],
+    "repairItems": [],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
-    "onRightClickedInAir": {
-      "name": "BreadSwordRightclicked"
+    "onEntityHitWith": {
+      "name": "EmeraldSwordLivingEntityIsHitWithTool"
     }
   }
 }
