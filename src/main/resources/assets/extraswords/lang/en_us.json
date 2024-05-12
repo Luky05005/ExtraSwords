@@ -1,13 +1,14 @@
 {
-  "item.extraswords.emerald_sword": "Emerald Sword",
   "item.extraswords.lightning_sword": "Lightning Sword",
-  "item.poisonsword.poison_sword": "Knife of Decay",
-  "item.poisonsword.blaze_sword": "Blaze Sword",
   "item.extraswords.blaze_sword": "Blaze Sword",
-  "item.extraswords.bread_sword": "Bread Sword",
   "item.extraswords.deepslate_hammer": "Deepslate Hammer",
   "item.extraswords.poison_sword": "Knife of Decay",
+  "item.extraswords.feather_sword": "Feather Sword",
+  "item.extraswords.emerald_sword": "Emerald Sword",
+  "item.poisonsword.blaze_sword": "Blaze Sword",
+  "item.poisonsword.poison_sword": "Knife of Decay",
+  "item.extraswords.bread_sword": "Bread Sword",
+  "item.extraswords.power_sword": "Power Sword",
   "item.extraswords.sword_of_ice": "Sword Of Ice",
-  "item.extraswords.javelin": "Javelin",
-  "item.extraswords.feather_sword": "Feather Sword"
+  "item.extraswords.javelin": "Javelin"
 }

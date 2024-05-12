@@ -310,7 +310,7 @@
         ],
         "dependencies": [
           {
-            "name": "entity",
+            "name": "sourceentity",
             "type": "entity"
           }
         ]
@@ -386,23 +386,59 @@
         ]
       },
       "path": "~/Weapons/Swords/Lightning Sword"
+    },
+    {
+      "name": "PowerSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/extraswords/procedures/PowerSwordLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Weapons/Swords/Power Sword"
+    },
+    {
+      "name": "PowerSword",
+      "type": "tool",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/extraswords/item/PowerSwordItem.java",
+          "src/main/resources/assets/extraswords/models/item/power_sword.json"
+        ]
+      },
+      "path": "~/Weapons/Swords/Power Sword"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.extraswords.emerald_sword": "Emerald Sword",
       "item.extraswords.lightning_sword": "Lightning Sword",
-      "item.poisonsword.poison_sword": "Knife of Decay",
-      "item.poisonsword.blaze_sword": "Blaze Sword",
       "item.extraswords.blaze_sword": "Blaze Sword",
-      "item.extraswords.bread_sword": "Bread Sword",
       "item.extraswords.deepslate_hammer": "Deepslate Hammer",
       "item.extraswords.poison_sword": "Knife of Decay",
+      "item.extraswords.feather_sword": "Feather Sword",
+      "item.extraswords.emerald_sword": "Emerald Sword",
+      "item.poisonsword.blaze_sword": "Blaze Sword",
+      "item.poisonsword.poison_sword": "Knife of Decay",
+      "item.extraswords.bread_sword": "Bread Sword",
+      "item.extraswords.power_sword": "Power Sword",
       "item.extraswords.sword_of_ice": "Sword Of Ice",
-      "item.extraswords.javelin": "Javelin",
-      "item.extraswords.feather_sword": "Feather Sword"
+      "item.extraswords.javelin": "Javelin"
     }
   },
   "foldersRoot": {
@@ -436,6 +472,10 @@
               },
               {
                 "name": "Lightning Sword",
+                "children": []
+              },
+              {
+                "name": "Power Sword",
                 "children": []
               }
             ]

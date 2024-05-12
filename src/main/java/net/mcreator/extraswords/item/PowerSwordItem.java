@@ -12,17 +12,17 @@ import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.network.chat.Component;
 
-import net.mcreator.extraswords.procedures.EmeraldSwordLivingEntityIsHitWithToolProcedure;
+import net.mcreator.extraswords.procedures.PowerSwordLivingEntityIsHitWithToolProcedure;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 
 import java.util.List;
 
-public class EmeraldSwordItem extends SwordItem {
-	public EmeraldSwordItem() {
+public class PowerSwordItem extends SwordItem {
+	public PowerSwordItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 2000;
+				return 3000;
 			}
 
 			public float getSpeed() {
@@ -30,7 +30,7 @@ public class EmeraldSwordItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 3f;
+				return 8f;
 			}
 
 			public int getLevel() {
@@ -38,7 +38,7 @@ public class EmeraldSwordItem extends SwordItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 2;
+				return 22;
 			}
 
 			public Ingredient getRepairIngredient() {
@@ -55,7 +55,7 @@ public class EmeraldSwordItem extends SwordItem {
 		double y = entity.getY();
 		double z = entity.getZ();
 		Level world = entity.level();
-		EmeraldSwordLivingEntityIsHitWithToolProcedure.execute(sourceentity);
+		PowerSwordLivingEntityIsHitWithToolProcedure.execute(sourceentity);
 		return retval;
 	}
 

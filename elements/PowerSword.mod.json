@@ -8,7 +8,7 @@
     "texture": "sword_placeholder",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
-    "name": "Emerald Sword",
+    "name": "Power Sword",
     "specialInformation": {
       "fixedValue": []
     },
@@ -18,9 +18,9 @@
     "harvestLevel": 1,
     "efficiency": 4.0,
     "attackSpeed": 1.6,
-    "enchantability": 2,
-    "damageVsEntity": 5.0,
-    "usageCount": 2000,
+    "enchantability": 22,
+    "damageVsEntity": 10.0,
+    "usageCount": 3000,
     "blocksAffected": [],
     "glowCondition": {
       "fixedValue": false
@@ -30,7 +30,7 @@
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "onEntityHitWith": {
-      "name": "EmeraldSwordLivingEntityIsHitWithTool"
+      "name": "PowerSwordLivingEntityIsHitWithTool"
     }
   }
 }

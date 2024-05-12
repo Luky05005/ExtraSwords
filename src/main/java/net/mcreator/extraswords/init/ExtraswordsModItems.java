@@ -12,6 +12,7 @@ import net.minecraft.client.renderer.item.ItemProperties;
 import net.minecraft.client.renderer.item.ClampedItemPropertyFunction;
 
 import net.mcreator.extraswords.item.SwordOfIceItem;
+import net.mcreator.extraswords.item.PowerSwordItem;
 import net.mcreator.extraswords.item.PoisonSwordItem;
 import net.mcreator.extraswords.item.LightningSwordItem;
 import net.mcreator.extraswords.item.JavelinItem;
@@ -32,6 +33,7 @@ public class ExtraswordsModItems {
 	public static Item FEATHER_SWORD;
 	public static Item EMERALD_SWORD;
 	public static Item LIGHTNING_SWORD;
+	public static Item POWER_SWORD;
 
 	public static void load() {
 		BLAZE_SWORD = register("blaze_sword", new BlazeSwordItem());
@@ -43,6 +45,7 @@ public class ExtraswordsModItems {
 		FEATHER_SWORD = register("feather_sword", new FeatherSwordItem());
 		EMERALD_SWORD = register("emerald_sword", new EmeraldSwordItem());
 		LIGHTNING_SWORD = register("lightning_sword", new LightningSwordItem());
+		POWER_SWORD = register("power_sword", new PowerSwordItem());
 	}
 
 	public static void clientLoad() {
