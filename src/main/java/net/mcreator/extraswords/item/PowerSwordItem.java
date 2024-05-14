@@ -12,7 +12,7 @@ import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.network.chat.Component;
 
-import net.mcreator.extraswords.procedures.PowerSwordLivingEntityIsHitWithToolProcedure;
+import net.mcreator.extraswords.procedures.PoserSwordssProcedure;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 
@@ -55,7 +55,7 @@ public class PowerSwordItem extends SwordItem {
 		double y = entity.getY();
 		double z = entity.getZ();
 		Level world = entity.level();
-		PowerSwordLivingEntityIsHitWithToolProcedure.execute(sourceentity);
+		PoserSwordssProcedure.execute(sourceentity);
 		return retval;
 	}
 

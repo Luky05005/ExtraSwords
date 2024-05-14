@@ -421,6 +421,26 @@
         ]
       },
       "path": "~/Weapons/Swords/Power Sword"
+    },
+    {
+      "name": "PoserSwordss",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poser_swordss",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/extraswords/procedures/PoserSwordssProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Weapons/Swords/Power Sword"
     }
   ],
   "variable_elements": [],
