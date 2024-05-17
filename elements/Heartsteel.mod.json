@@ -1,0 +1,39 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "sword_placeholder",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Heartsteal",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 3.0,
+    "enchantability": 30,
+    "damageVsEntity": 9.0,
+    "usageCount": 2500,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "HeartsteelRightclicked"
+    },
+    "onEntityHitWith": {
+      "name": "HeartsteelLivingEntityIsHitWithTool"
+    }
+  }
+}

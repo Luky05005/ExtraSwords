@@ -441,6 +441,69 @@
         ]
       },
       "path": "~/Weapons/Swords/Power Sword"
+    },
+    {
+      "name": "Heartsteel",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heartsteel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/extraswords/item/HeartsteelItem.java",
+          "src/main/resources/assets/extraswords/models/item/heartsteel.json"
+        ]
+      },
+      "path": "~/Weapons/Swords/Heartsteal Sword"
+    },
+    {
+      "name": "HeartsteelLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heartsteel_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/extraswords/procedures/HeartsteelLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Weapons/Swords/Heartsteal Sword"
+    },
+    {
+      "name": "HeartsteelRightclicked",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heartsteel_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/extraswords/procedures/HeartsteelRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Weapons/Swords/Heartsteal Sword"
     }
   ],
   "variable_elements": [],
@@ -449,6 +512,7 @@
     "en_us": {
       "item.extraswords.lightning_sword": "Lightning Sword",
       "item.extraswords.blaze_sword": "Blaze Sword",
+      "item.extraswords.heartsteel": "Heartsteal",
       "item.extraswords.deepslate_hammer": "Deepslate Hammer",
       "item.extraswords.poison_sword": "Knife of Decay",
       "item.extraswords.feather_sword": "Feather Sword",
@@ -496,6 +560,10 @@
               },
               {
                 "name": "Power Sword",
+                "children": []
+              },
+              {
+                "name": "Heartsteal Sword",
                 "children": []
               }
             ]

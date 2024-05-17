@@ -9,6 +9,8 @@ import net.mcreator.extraswords.procedures.PowerSwordLivingEntityIsHitWithToolPr
 import net.mcreator.extraswords.procedures.PoserSwordssProcedure;
 import net.mcreator.extraswords.procedures.PoisonSwordLivingEntityIsHitWithToolProcedure;
 import net.mcreator.extraswords.procedures.LightningSwordRightclickedProcedure;
+import net.mcreator.extraswords.procedures.HeartsteelRightclickedProcedure;
+import net.mcreator.extraswords.procedures.HeartsteelLivingEntityIsHitWithToolProcedure;
 import net.mcreator.extraswords.procedures.FeatherSwordToolInHandTickProcedure;
 import net.mcreator.extraswords.procedures.EmeraldSwordLivingEntityIsHitWithToolProcedure;
 import net.mcreator.extraswords.procedures.DeepslateHammerLivingEntityIsHitWithToolProcedure;
@@ -34,5 +36,7 @@ public class ExtraswordsModProcedures {
 		new LightningSwordRightclickedProcedure();
 		new PowerSwordLivingEntityIsHitWithToolProcedure();
 		new PoserSwordssProcedure();
+		new HeartsteelLivingEntityIsHitWithToolProcedure();
+		new HeartsteelRightclickedProcedure();
 	}
 }
