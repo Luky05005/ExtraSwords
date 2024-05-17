@@ -10,9 +10,9 @@ public class HeartsteelLivingEntityIsHitWithToolProcedure {
 			return;
 		if (sourceentity instanceof LivingEntity _entity)
 			_entity.setHealth((float) ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) + 1));
-		if ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) > 2) {
-			if (sourceentity instanceof LivingEntity _entity)
-				_entity.setHealth((float) ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) + 1));
+		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) > 2) {
+			if (entity instanceof LivingEntity _entity)
+				_entity.setHealth((float) ((entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) - 1));
 		}
 		if ((sourceentity instanceof Player _plr ? _plr.getFoodData().getFoodLevel() : 0) >= 20) {
 			if (sourceentity instanceof Player _player)

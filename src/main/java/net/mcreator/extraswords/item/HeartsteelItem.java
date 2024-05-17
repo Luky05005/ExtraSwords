@@ -34,7 +34,7 @@ public class HeartsteelItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 7f;
+				return 5f;
 			}
 
 			public int getLevel() {
