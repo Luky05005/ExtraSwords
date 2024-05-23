@@ -504,6 +504,21 @@
         ]
       },
       "path": "~/Weapons/Swords/Heartsteal Sword"
+    },
+    {
+      "name": "LapisPickaxe",
+      "type": "tool",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/extraswords/models/item/lapis_pickaxe.json",
+          "src/main/java/net/mcreator/extraswords/item/LapisPickaxeItem.java"
+        ]
+      },
+      "path": "~/Tools/Pickaxe"
     }
   ],
   "variable_elements": [],
@@ -519,6 +534,7 @@
       "item.extraswords.emerald_sword": "Emerald Sword",
       "item.poisonsword.blaze_sword": "Blaze Sword",
       "item.poisonsword.poison_sword": "Knife of Decay",
+      "item.extraswords.lapis_pickaxe": "Lapis Pickaxe",
       "item.extraswords.bread_sword": "Bread Sword",
       "item.extraswords.power_sword": "Power Sword",
       "item.extraswords.sword_of_ice": "Sword Of Ice",
@@ -573,6 +589,15 @@
       {
         "name": "PotionEffects",
         "children": []
+      },
+      {
+        "name": "Tools",
+        "children": [
+          {
+            "name": "Pickaxe",
+            "children": []
+          }
+        ]
       }
     ]
   },
