@@ -1,9 +1,20 @@
 
 package net.mcreator.extraswords.item;
 
-import com.google.common.collect.Multimap;
-import net.minecraft.world.entity.ai.attributes.Attributes;
-import net.fabricmc.api.Environment;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.PickaxeItem;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.network.chat.Component;
+
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+
+import java.util.List;
 
 public class LapisPickaxeItem extends PickaxeItem {
 	public LapisPickaxeItem() {
