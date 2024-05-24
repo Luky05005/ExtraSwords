@@ -504,6 +504,26 @@
         ]
       },
       "path": "~/Weapons/Swords/Heartsteal Sword"
+    },
+    {
+      "name": "PowerSwordLivingEntityIsHit",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_sword_living_entity_is_hit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/extraswords/procedures/PowerSwordLivingEntityIsHitProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Weapons/Swords/Power Sword"
     }
   ],
   "variable_elements": [],

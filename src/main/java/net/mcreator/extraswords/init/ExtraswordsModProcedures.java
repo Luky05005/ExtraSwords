@@ -6,6 +6,7 @@ package net.mcreator.extraswords.init;
 
 import net.mcreator.extraswords.procedures.SwordOfIceLivingEntityIsHitWithToolProcedure;
 import net.mcreator.extraswords.procedures.PowerSwordLivingEntityIsHitWithToolProcedure;
+import net.mcreator.extraswords.procedures.PowerSwordLivingEntityIsHitProcedure;
 import net.mcreator.extraswords.procedures.PoserSwordssProcedure;
 import net.mcreator.extraswords.procedures.PoisonSwordLivingEntityIsHitWithToolProcedure;
 import net.mcreator.extraswords.procedures.LightningSwordRightclickedProcedure;
@@ -38,5 +39,6 @@ public class ExtraswordsModProcedures {
 		new PoserSwordssProcedure();
 		new HeartsteelLivingEntityIsHitWithToolProcedure();
 		new HeartsteelRightclickedProcedure();
+		new PowerSwordLivingEntityIsHitProcedure();
 	}
 }

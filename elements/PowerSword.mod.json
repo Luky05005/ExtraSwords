@@ -30,7 +30,7 @@
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "onEntityHitWith": {
-      "name": "PoserSwordss"
+      "name": "PowerSwordLivingEntityIsHit"
     }
   }
 }
