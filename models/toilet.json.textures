@@ -2,7 +2,8 @@
   "mappings": {
     "default": {
       "map": {
-        "1": "shitmap"
+        "0": "toilet",
+        "1": "water_still"
       },
       "name": "default"
     }

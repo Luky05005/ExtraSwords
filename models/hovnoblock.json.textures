@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "1": "shitmap"
+        "0": "hovnoblock"
       },
       "name": "default"
     }

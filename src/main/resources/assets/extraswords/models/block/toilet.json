@@ -1,0 +1,10 @@
+{
+  "parent": "extraswords:custom/toilet",
+  "textures": {
+    "all": "extraswords:block/toilet",
+    "particle": "extraswords:block/toilet",
+    "0": "extraswords:block/toilet",
+    "1": "extraswords:block/water_still"
+  },
+  "render_type": "solid"
+}

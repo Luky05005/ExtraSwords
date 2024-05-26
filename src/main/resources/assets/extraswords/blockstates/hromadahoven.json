@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "extraswords:block/hromadahoven"
+    },
+    "facing=east": {
+      "model": "extraswords:block/hromadahoven",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "extraswords:block/hromadahoven",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "extraswords:block/hromadahoven",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "extraswords:block/hromadahoven",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "extraswords:block/hromadahoven",
+      "x": 90
+    }
+  }
+}

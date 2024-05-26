@@ -2,76 +2,82 @@
 	"credit": "Made with Blockbench",
 	"parent": "hovno",
 	"textures": {
-		"0": "hovno",
+		"1": "shitmap",
 		"particle": "hovno"
 	},
 	"elements": [
 		{
-			"from": [5, 0, 5],
-			"to": [11, 2, 11],
-			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 7]},
+			"from": [5, 5, 13],
+			"to": [11, 11, 16],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 8, 8]},
 			"faces": {
-				"north": {"uv": [6, 8, 12, 10], "texture": "#0"},
-				"east": {"uv": [10, 0, 16, 2], "texture": "#0"},
-				"south": {"uv": [10, 2, 16, 4], "texture": "#0"},
-				"west": {"uv": [10, 4, 16, 6], "texture": "#0"},
-				"up": {"uv": [6, 6, 0, 0], "texture": "#0"},
-				"down": {"uv": [6, 6, 0, 12], "texture": "#0"}
+				"north": {"uv": [6, 6, 0, 0], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [6, 3, 12, 6], "rotation": 90, "texture": "#1"},
+				"south": {"uv": [6, 6, 0, 12], "texture": "#1"},
+				"west": {"uv": [6, 9, 12, 12], "rotation": 270, "texture": "#1"},
+				"up": {"uv": [6, 6, 12, 9], "texture": "#1"},
+				"down": {"uv": [6, 0, 12, 3], "rotation": 180, "texture": "#1"}
 			}
 		},
 		{
-			"from": [6, 2, 6],
-			"to": [10, 4, 10],
-			"rotation": {"angle": 0, "axis": "y", "origin": [7, 2, 7]},
+			"from": [6, 6, 11],
+			"to": [10, 10, 13],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 8, 8]},
 			"faces": {
-				"north": {"uv": [6, 10, 10, 12], "texture": "#0"},
-				"east": {"uv": [10, 6, 14, 8], "texture": "#0"},
-				"south": {"uv": [10, 10, 14, 12], "texture": "#0"},
-				"west": {"uv": [0, 12, 4, 14], "texture": "#0"},
-				"up": {"uv": [10, 4, 6, 0], "texture": "#0"},
-				"down": {"uv": [10, 4, 6, 8], "texture": "#0"}
+				"north": {"uv": [4, 16, 0, 12], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [12, 4, 16, 6], "rotation": 90, "texture": "#1"},
+				"south": {"uv": [16, 0, 12, 4], "texture": "#1"},
+				"west": {"uv": [8, 12, 12, 14], "rotation": 270, "texture": "#1"},
+				"up": {"uv": [12, 6, 16, 8], "texture": "#1"},
+				"down": {"uv": [4, 12, 8, 14], "rotation": 180, "texture": "#1"}
 			}
 		},
 		{
-			"from": [7, 4, 7],
-			"to": [9, 5, 9],
-			"rotation": {"angle": 0, "axis": "y", "origin": [7, 4, 7]},
+			"from": [7, 7, 10],
+			"to": [9, 9, 11],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 8, 8]},
 			"faces": {
-				"north": {"uv": [8, 12, 10, 13], "texture": "#0"},
-				"east": {"uv": [12, 8, 14, 9], "texture": "#0"},
-				"south": {"uv": [12, 9, 14, 10], "texture": "#0"},
-				"west": {"uv": [10, 12, 12, 13], "texture": "#0"},
-				"up": {"uv": [6, 14, 4, 12], "texture": "#0"},
-				"down": {"uv": [8, 12, 6, 14], "texture": "#0"}
+				"north": {"uv": [14, 10, 12, 8], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [12, 13, 14, 14], "rotation": 90, "texture": "#1"},
+				"south": {"uv": [14, 10, 12, 12], "texture": "#1"},
+				"west": {"uv": [6, 14, 8, 15], "rotation": 270, "texture": "#1"},
+				"up": {"uv": [4, 14, 6, 15], "texture": "#1"},
+				"down": {"uv": [12, 12, 14, 13], "rotation": 180, "texture": "#1"}
 			}
 		}
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [-15.68, -3.19, -0.73],
-			"translation": [0, 7.25, -1.75]
+			"rotation": [91.1, -0.35, 0.07],
+			"translation": [0, 6.5, 0.25]
 		},
 		"thirdperson_lefthand": {
-			"translation": [0, 7.75, 0]
+			"rotation": [90, 0, 0],
+			"translation": [0, 6.75, 0]
 		},
 		"firstperson_righthand": {
+			"rotation": [90, 0, 0],
 			"translation": [-1.75, 9, 2.5]
 		},
 		"firstperson_lefthand": {
+			"rotation": [87, 0, 0],
 			"translation": [-1.75, 9.5, 2.25]
 		},
 		"ground": {
-			"translation": [0, 4.5, 0]
+			"rotation": [90.87, -1.09, 134.08],
+			"translation": [0, 4.75, 0]
 		},
 		"gui": {
-			"translation": [0, 6.75, 0],
-			"scale": [1.39648, 1.26367, 1]
+			"rotation": [116.14, -0.87, -154.7],
+			"translation": [0, 7.25, 0],
+			"scale": [1.51, 1.51, 1.51]
 		},
 		"head": {
+			"rotation": [90, 0, 0],
 			"translation": [0, 14.5, 0]
 		},
 		"fixed": {
-			"rotation": [-89, 0, 0],
+			"rotation": [1, 0, 0],
 			"translation": [0, 0.75, -7]
 		}
 	}

@@ -2,9 +2,9 @@
   "_fv": 57,
   "_type": "item",
   "definition": {
-    "renderType": 1,
+    "renderType": 0,
     "texture": "shit",
-    "customModelName": "hovno:default",
+    "customModelName": "Normal",
     "customProperties": {},
     "states": [],
     "name": "Hovno",

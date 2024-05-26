@@ -1,0 +1,9 @@
+{
+  "parent": "extraswords:custom/hovnoblock",
+  "textures": {
+    "all": "extraswords:block/hovnoblock",
+    "particle": "extraswords:block/hovnoblock",
+    "0": "extraswords:block/hovnoblock"
+  },
+  "render_type": "solid"
+}

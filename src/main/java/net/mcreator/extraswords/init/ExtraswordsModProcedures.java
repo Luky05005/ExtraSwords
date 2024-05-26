@@ -4,6 +4,7 @@
  */
 package net.mcreator.extraswords.init;
 
+import net.mcreator.extraswords.procedures.ToiletOnBlockRightClickedProcedure;
 import net.mcreator.extraswords.procedures.SwordOfIceLivingEntityIsHitWithToolProcedure;
 import net.mcreator.extraswords.procedures.PowerSwordLivingEntityIsHitWithToolProcedure;
 import net.mcreator.extraswords.procedures.PowerSwordLivingEntityIsHitProcedure;
@@ -42,5 +43,6 @@ public class ExtraswordsModProcedures {
 		new HeartsteelRightclickedProcedure();
 		new PowerSwordLivingEntityIsHitProcedure();
 		new HovnoPlayerFinishesUsingItemProcedure();
+		new ToiletOnBlockRightClickedProcedure();
 	}
 }

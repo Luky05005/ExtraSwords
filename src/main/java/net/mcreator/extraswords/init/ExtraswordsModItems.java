@@ -5,6 +5,8 @@ package net.mcreator.extraswords.init;
 
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.Registry;
@@ -26,6 +28,8 @@ import net.mcreator.extraswords.item.BreadSwordItem;
 import net.mcreator.extraswords.item.BlazeSwordItem;
 import net.mcreator.extraswords.ExtraswordsMod;
 
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+
 public class ExtraswordsModItems {
 	public static Item BLAZE_SWORD;
 	public static Item POISON_SWORD;
@@ -40,6 +44,9 @@ public class ExtraswordsModItems {
 	public static Item HEARTSTEEL;
 	public static Item LAPIS_PICKAXE;
 	public static Item HOVNO;
+	public static Item HOVNOBLOCK;
+	public static Item HROMADAHOVEN;
+	public static Item TOILET;
 
 	public static void load() {
 		BLAZE_SWORD = register("blaze_sword", new BlazeSwordItem());
@@ -55,6 +62,10 @@ public class ExtraswordsModItems {
 		HEARTSTEEL = register("heartsteel", new HeartsteelItem());
 		LAPIS_PICKAXE = register("lapis_pickaxe", new LapisPickaxeItem());
 		HOVNO = register("hovno", new HovnoItem());
+		HOVNOBLOCK = register("hovnoblock", new BlockItem(ExtraswordsModBlocks.HOVNOBLOCK, new Item.Properties()));
+		HROMADAHOVEN = register("hromadahoven", new BlockItem(ExtraswordsModBlocks.HROMADAHOVEN, new Item.Properties()));
+		TOILET = register("toilet", new BlockItem(ExtraswordsModBlocks.TOILET, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(content -> content.accept(TOILET));
 	}
 
 	public static void clientLoad() {
