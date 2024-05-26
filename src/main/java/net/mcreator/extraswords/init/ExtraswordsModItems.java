@@ -17,6 +17,7 @@ import net.mcreator.extraswords.item.PoisonSwordItem;
 import net.mcreator.extraswords.item.LightningSwordItem;
 import net.mcreator.extraswords.item.LapisPickaxeItem;
 import net.mcreator.extraswords.item.JavelinItem;
+import net.mcreator.extraswords.item.HovnoItem;
 import net.mcreator.extraswords.item.HeartsteelItem;
 import net.mcreator.extraswords.item.FeatherSwordItem;
 import net.mcreator.extraswords.item.EmeraldSwordItem;
@@ -38,6 +39,7 @@ public class ExtraswordsModItems {
 	public static Item POWER_SWORD;
 	public static Item HEARTSTEEL;
 	public static Item LAPIS_PICKAXE;
+	public static Item HOVNO;
 
 	public static void load() {
 		BLAZE_SWORD = register("blaze_sword", new BlazeSwordItem());
@@ -52,6 +54,7 @@ public class ExtraswordsModItems {
 		POWER_SWORD = register("power_sword", new PowerSwordItem());
 		HEARTSTEEL = register("heartsteel", new HeartsteelItem());
 		LAPIS_PICKAXE = register("lapis_pickaxe", new LapisPickaxeItem());
+		HOVNO = register("hovno", new HovnoItem());
 	}
 
 	public static void clientLoad() {
