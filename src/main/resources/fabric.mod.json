@@ -1,24 +1,24 @@
 {
   "schemaVersion": 1,
-  "id": "extraswords",
-  "version": "1.0.3",
-  "name": "Extra_Swords",
+  "id": "extralib",
+  "version": "1.1.0",
+  "name": "Extra_LIB",
   "authors": [
-    "Luky005, MCreator"
+    "KDLix, MCreator"
   ],
   "contact": {
     "homepage": "https://mcreator.net",
     "sources": ""
   },
   "license": "Academic Free License v3.0",
-  "accessWidener": "extraswords.accesswidener",
+  "accessWidener": "extralib.accesswidener",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.mcreator.extraswords.ExtraswordsMod"
+      "net.mcreator.extraslib.ExtralibMod"
     ],
     "client": [
-      "net.mcreator.extraswords.ClientInit"
+      "net.mcreator.extraslib.ClientInit"
     ]
   },
   "depends": {
@@ -28,6 +28,6 @@
     "java": ">=17"
   },
   "mixins": [
-    "extraswords.mixins.json"
+    "extralib.mixins.json"
   ]
 }

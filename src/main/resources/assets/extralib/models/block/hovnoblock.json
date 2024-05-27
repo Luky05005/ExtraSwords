@@ -1,0 +1,9 @@
+{
+  "parent": "extralib:custom/hovnoblock",
+  "textures": {
+    "all": "extralib:block/hovnoblock",
+    "particle": "extralib:block/hovnoblock",
+    "0": "extralib:block/hovnoblock"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "extralib:block/hromadahoven"
+    },
+    "facing=east": {
+      "model": "extralib:block/hromadahoven",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "extralib:block/hromadahoven",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "extralib:block/hromadahoven",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "extralib:block/hromadahoven",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "extralib:block/hromadahoven",
+      "x": 90
+    }
+  }
+}

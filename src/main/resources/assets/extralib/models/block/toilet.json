@@ -1,0 +1,10 @@
+{
+  "parent": "extralib:custom/toilet",
+  "textures": {
+    "all": "extralib:block/toilet",
+    "particle": "extralib:block/toilet",
+    "0": "extralib:block/toilet",
+    "1": "extralib:block/water_still"
+  },
+  "render_type": "solid"
+}

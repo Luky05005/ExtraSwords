@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "extralib:block/toilet"
+    },
+    "facing=east": {
+      "model": "extralib:block/toilet",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "extralib:block/toilet",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "extralib:block/toilet",
+      "y": 270
+    }
+  }
+}

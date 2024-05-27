@@ -1,0 +1,9 @@
+{
+  "parent": "extralib:custom/hovno",
+  "textures": {
+    "all": "extralib:block/shitmap",
+    "particle": "extralib:block/shitmap",
+    "1": "extralib:block/shitmap"
+  },
+  "render_type": "solid"
+}

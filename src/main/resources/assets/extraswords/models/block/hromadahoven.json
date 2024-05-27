@@ -1,9 +1,0 @@
-{
-  "parent": "extraswords:custom/hovno",
-  "textures": {
-    "all": "extraswords:block/shitmap",
-    "particle": "extraswords:block/shitmap",
-    "1": "extraswords:block/shitmap"
-  },
-  "render_type": "solid"
-}
